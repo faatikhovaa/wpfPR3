@@ -25,12 +25,12 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <TextBlock  Width="100">Strength:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button Background="AliceBlue" Width="100" Height="50">
+            <Button  Background="AliceBlue" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
                     </Style>
-                </Button.Resources>
+                </Button.Resources>+
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="2" Orientation="Horizontal" >
@@ -41,18 +41,18 @@
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
                     </Style>
-                </Button.Resources>
+                </Button.Resources>+
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="3" Orientation="Horizontal" >
             <TextBlock  Width="100">Intelligence:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button Background="AliceBlue" Width="100">
+            <Button Background="AliceBlue" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
                     </Style>
-                </Button.Resources>
+                </Button.Resources>+
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="4" Orientation="Horizontal" >
@@ -63,7 +63,7 @@
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
                     </Style>
-                </Button.Resources>
+                </Button.Resources>+
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="5" Orientation="Horizontal" >
@@ -74,7 +74,7 @@
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
                     </Style>
-                </Button.Resources>
+                </Button.Resources>+
             </Button>
         </StackPanel>
         <StackPanel HorizontalAlignment="Center" Grid.Row="6" Orientation="Horizontal">
