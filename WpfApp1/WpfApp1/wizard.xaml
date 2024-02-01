@@ -9,6 +9,89 @@
       Title="wizard">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" Width="52">
+            <TextBlock>WIZARD</TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <TextBlock  Width="100">Strength:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button  Background="AliceBlue" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" >
+            <TextBlock  Width="100">Dexterity:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="AliceBlue" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" >
+            <TextBlock  Width="100">Intelligence:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="AliceBlue" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" >
+            <TextBlock  Width="100">Vitality:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="AliceBlue" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" >
+            <TextBlock Width="100">Health:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="AliceBlue" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="6" Orientation="Horizontal">
+            <Button Background="AliceBlue" Width="100" Height="40" Margin="5 0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources> сохранить
+            </Button>
+            <Button Background="AliceBlue" Width="100" Height="40" Margin="5 0">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources> отменить
+            </Button>
+        </StackPanel>
     </Grid>
 </Page>
