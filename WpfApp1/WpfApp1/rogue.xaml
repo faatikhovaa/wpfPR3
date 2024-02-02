@@ -9,6 +9,10 @@
       Title="rogue">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="101*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="35*"/>
             <RowDefinition Height="37*"/>
@@ -19,13 +23,13 @@
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" HorizontalAlignment="Center" >
-            <TextBlock FontSize="50">ROGUE</TextBlock>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="335,0,0,0">
+            <TextBlock FontSize="30">ROGUE</TextBlock>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="1">
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0,61,0,0" Grid.RowSpan="2">
             <TextBlock  Width="100">Strength:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button  Background="AliceBlue" Width="100" Height="50">
+            <Button  Background="DarkOliveGreen" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -33,10 +37,10 @@
                 </Button.Resources> +
             </Button>
         </StackPanel>
-        <StackPanel Grid.Row="2" Orientation="Horizontal" >
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0,65,0,65" Grid.RowSpan="3" >
             <TextBlock  Width="100">Dexterity:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button Background="AliceBlue" Width="100" Height="50">
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -44,10 +48,10 @@
                 </Button.Resources> +
             </Button>
         </StackPanel>
-        <StackPanel Grid.Row="3" Orientation="Horizontal" >
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0,0,0,64" Grid.RowSpan="2" >
             <TextBlock  Width="100">Intelligence:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button Background="AliceBlue" Width="100" Height="50">
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -55,10 +59,10 @@
                 </Button.Resources> +
             </Button>
         </StackPanel>
-        <StackPanel Grid.Row="4" Orientation="Horizontal" >
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Grid.ColumnSpan="2" >
             <TextBlock  Width="100">Vitality:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button Background="AliceBlue" Width="100" Height="50">
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -66,10 +70,10 @@
                 </Button.Resources> +
             </Button>
         </StackPanel>
-        <StackPanel Grid.Row="5" Orientation="Horizontal" >
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0,64,0,0" Grid.RowSpan="2" >
             <TextBlock Width="100">Health:</TextBlock>
             <TextBox Width="100"></TextBox>
-            <Button Background="AliceBlue" Width="100" Height="50">
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -77,15 +81,71 @@
                 </Button.Resources> +
             </Button>
         </StackPanel>
-        <StackPanel HorizontalAlignment="Center" Grid.Row="6" Orientation="Horizontal">
-            <Button Background="AliceBlue" Width="100" Height="40" Margin="5 0">
+
+        <StackPanel Orientation="Horizontal" Grid.Column="2" Margin="0,61,0,0" Grid.RowSpan="2">
+            <TextBlock  Width="100">Mana:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button  Background="DarkOliveGreen" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Grid.Column="2" Margin="0,65,0,65" Grid.RowSpan="3" >
+            <TextBlock  Width="100">Damage:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Grid.Column="2" Margin="0,0,0,64" Grid.RowSpan="2" >
+            <TextBlock  Width="100">Armor:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Grid.Column="2" >
+            <TextBlock  Width="100">Defense:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Grid.Column="2" Margin="0,64,0,0" Grid.RowSpan="2" >
+            <TextBlock Width="100">Chanse:</TextBlock>
+            <TextBox Width="100"></TextBox>
+            <Button Background="DarkOliveGreen" Width="100" Height="50">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources> +
+            </Button>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Row="5" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="290,65,0,0" Grid.RowSpan="2">
+            <Button Background="DarkOliveGreen" Width="100" Height="40" Margin="5 0">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources> сохранить
             </Button>
-            <Button Background="AliceBlue" Width="100" Height="40" Margin="5 0">
+            <Button Background="DarkOliveGreen" Width="100" Height="40" Margin="5 0">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
