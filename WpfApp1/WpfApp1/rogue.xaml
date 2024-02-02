@@ -19,8 +19,8 @@
             <RowDefinition Height="37*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" HorizontalAlignment="Center" Width="52">
-            <TextBlock>ROGUE</TextBlock>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" >
+            <TextBlock FontSize="50">ROGUE</TextBlock>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <TextBlock  Width="100">Strength:</TextBlock>
