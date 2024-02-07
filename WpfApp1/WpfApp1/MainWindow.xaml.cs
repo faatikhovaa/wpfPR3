@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,13 +24,38 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            fram.Navigate(new warrior());
+            
         }
-
+        private int click = 0;
         private void back_Click(object sender, RoutedEventArgs e)
         {
-            if(fram.CanGoBack) 
-                fram.GoBack();
+            if(click== 0)
+            {
+                return;
+            }
+            else
+            {
+                click--;
+                UnitTbl.Text = UnitsList[click];
+                Refresh();
+
+            }
+                
+        }
+
+        private void vpered_Click(object sender, RoutedEventArgs e)
+        {
+            if (click == UnitsList.Count - 1)
+            {
+                return;
+            }
+            else
+            {
+                click++;
+                UnitTbl.Text = UnitsList[click];
+                Refresh();
+
+            }
         }
     }
 }
