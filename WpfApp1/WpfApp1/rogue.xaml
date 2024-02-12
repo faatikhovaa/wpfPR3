@@ -127,10 +127,10 @@
            
         </StackPanel>
         <StackPanel Grid.Row="4" Orientation="Horizontal" Grid.Column="2" Margin="0,64,0,0" Grid.RowSpan="2" >
-            <TextBlock Width="100">Crt.damage:</TextBlock>
-            <TextBlock x:Name="" Width="100"></TextBlock>
+            <TextBlock Width="100" >Crt.damage:</TextBlock>
+            <TextBlock x:Name="CrtDamageTbl" Width="100"></TextBlock>
             <TextBlock Width="100">Crt.chanse:</TextBlock>
-            <TextBlock Width="100"></TextBlock>
+            <TextBlock Width="100" x:Name="CrtChanseTbl"></TextBlock>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Grid.Row="5" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="290,65,0,0" Grid.RowSpan="2">
             <Button Background="DarkKhaki"  Width="100" Height="40" Margin="5 0">

@@ -60,3 +60,14 @@ C:\Users\222126\Source\Repos\wpfPR3гоагоенго\WpfApp1\WpfApp1\obj\Debug\
 C:\Users\222126\Source\Repos\wpfPR3гоагоенго\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\222126\Source\Repos\wpfPR3гоагоенго\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\222126\Source\Repos\wpfPR3гоагоенго\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\warrior.g.cs
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\wizard.g.cs
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\222126\Source\Repos\wpfPR3гнлангл\WpfApp1\WpfApp1\obj\Debug\rogue.g.cs
